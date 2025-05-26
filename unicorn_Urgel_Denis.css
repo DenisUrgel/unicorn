@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(Licornes-ressources/ressources/background.png);
+}
+#titre_prncipale{
+    background-image: url(Licornes-ressources/ressources/rainbow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courgette', cursive;
+    color: rgb(237, 61, 216);
+    padding-top: 200px;
+}
+#contenu{
+    background-color: white;
+    margin: 30px auto;
+    width: 70%;
+    padding-top: 100px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 1%;
+}
+footer{
+    display: flex;
+    color: white;
+    background-color: rgb(237, 61, 216);
+    padding: 20px;
+    font-size: small;
+    justify-content: flex-end;
+}
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    color: white;
+    background-color: rgb(237, 61, 216);
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+#titre_header{
+    padding-left: 50px;
+    font-family: 'Courgette', cursive;
+    font-weight: 10;
+}
+#menu{
+    display: flex;
+}
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+}
+#text_trouver a{
+    color: black;
+}
+#text_trouver{
+    flex-direction: column;
+    display: flex;
+    padding-left: 20px;
+}
+#les_images{
+    display: flex;
+    justify-content: space-around;
+}
+#les_images p{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0,0.2);
+}
+#nous_trouver{
+    display: flex;
+}
+h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(237, 61, 216);
+    font-family: 'Courgette', cursive;
+}
+h4{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(237, 61, 216);
+    font-family: 'Courgette', cursive;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(237, 61, 216);
+    color: white;
+    border-radius: 10%;
+}
+input{
+    margin-top: 10px;
+}
